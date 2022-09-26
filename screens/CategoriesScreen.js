@@ -3,18 +3,26 @@ import React from 'react'
 import { CATEGORIES } from '../data/dummy-data'
 import CategoryGridTile from '../components/CategoryGridTile'
 
+export default function CategoriesScreen({ navigation }) {
 
-function renderCategoryItem(itemData) {
-    return (
-        <CategoryGridTile
-            title={itemData.item.title}
-            color={itemData.item.color}
-        />
-    )
-}
+    function renderCategoryItem(itemData) {
 
+        function pressHandler() {
+            navigation.navigate('MealsOverview', {
+                categoryId: itemData.item.id,
+            })
+        }
 
-export default function CategoriesScreen() {
+        return (
+            <CategoryGridTile
+                title={itemData.item.title}
+                color={itemData.item.color}
+                onPress={pressHandler}
+                navigation={navigation}
+            />
+        )
+    }
+
     return (
         <FlatList
             data={CATEGORIES}
