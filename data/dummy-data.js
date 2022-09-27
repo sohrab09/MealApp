@@ -2,16 +2,95 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'Italian', '#f5428d'),
-  new Category('c2', 'Quick & Easy', '#f54242'),
-  new Category('c3', 'Hamburgers', '#f5a442'),
-  new Category('c4', 'German', '#f5d142'),
-  new Category('c5', 'Light & Lovely', '#368dff'),
-  new Category('c6', 'Exotic', '#41d95d'),
-  new Category('c7', 'Breakfast', '#9eecff'),
-  new Category('c8', 'Asian', '#b9ffb0'),
-  new Category('c9', 'French', '#ffc7ff'),
-  new Category('c10', 'Summer', '#47fced')
+
+  //Dhaka Division
+
+  new Category('c1', 'Dhaka', '#f5428d'),
+  new Category('c2', 'Kishorgonj', '#f54242'),
+  new Category('c3', 'Tangail', '#f5a442'),
+  new Category('c4', 'Narayongonj', '#f5d142'),
+  new Category('c5', 'Munshigonj', '#368dff'),
+  new Category('c6', 'Manikgonj', '#41d95d'),
+  new Category('c7', 'Gazipur', '#9eecff'),
+  new Category('c8', 'Rajbari', '#b9ffb0'),
+  new Category('c9', 'Sariatpur', '#ffc7ff'),
+  new Category('c10', 'Madaripur', '#47fced'),
+  new Category('c11', 'Gopalgonj', '#f5428d'),
+  new Category('c12', 'Faridpur', '#f54242'),
+  new Category('c13', 'Narsingdi', '#f5a442'),
+
+  //Chittagong Division
+
+  new Category('c14', 'Rangamati', '#f5d142'),
+  new Category('c15', 'Noakhali', '#368dff'),
+  new Category('c16', 'Chittagong', '#41d95d'),
+  new Category('c17', 'Coxs Bazar', '#9eecff'),
+  new Category('c18', 'Feni', '#b9ffb0'),
+  new Category('c19', 'Khagrachari', '#ffc7ff'),
+  new Category('c20', 'Bandarban', '#47fced'),
+  new Category('c21', 'Brahmanbaria', '#f5428d'),
+  new Category('c22', 'Comilla', '#f54242'),
+  new Category('c23', 'Chandpur', '#f5a442'),
+  new Category('c24', 'Lakshmipur', '#f5d142'),
+
+  //Khulna Division
+
+  new Category('c25', 'Khulna', '#368dff'),
+  new Category('c26', 'Jessore', '#41d95d'),
+  new Category('c27', 'Bagerhat', '#9eecff'),
+  new Category('c28', 'Jhenaidah', '#b9ffb0'),
+  new Category('c29', 'Narail', '#ffc7ff'),
+  new Category('c30', 'Chuadanga', '#47fced'),
+  new Category('c31', 'Kushtia', '#f5428d'),
+  new Category('c32', 'Magura', '#f54242'),
+  new Category('c33', 'Meherpur', '#f5a442'),
+  new Category('c34', 'Satkhira', '#f5d142'),
+
+  //Sylhet Division
+
+  new Category('c35', 'Sylhet', '#368dff'),
+  new Category('c36', 'Sunamgonj', '#41d95d'),
+  new Category('c37', 'Moulvibazar', '#9eecff'),
+  new Category('c38', 'Habiganj', '#b9ffb0'),
+
+  //Barisal Division
+
+  new Category('c39', 'Barisal', '#ffc7ff'),
+  new Category('c40', 'Barguna', '#47fced'),
+  new Category('c41', 'Pirojpur', '#f5428d'),
+  new Category('c42', 'Patuakhali', '#f54242'),
+  new Category('c43', 'Bhola', '#f5a442'),
+  new Category('c44', 'Jhalokati', '#f5d142'),
+
+  //Maymanshing Division
+
+  new Category('c45', 'Maymanshing', '#368dff'),
+  new Category('c46', 'Jamalpur', '#41d95d'),
+  new Category('c47', 'Netrokona', '#9eecff'),
+  new Category('c48', 'Sherpur', '#b9ffb0'),
+
+  //Rangpur Division
+
+  new Category('c49', 'Dinajpur', '#ffc7ff'),
+  new Category('c50', 'Gaibandha', '#47fced'),
+  new Category('c51', 'Kurigram', '#f5428d'),
+  new Category('c52', 'Lalmonirhat', '#f54242'),
+  new Category('c53', 'Nilphamari', '#f5a442'),
+  new Category('c54', 'Panchagarh', '#f5d142'),
+  new Category('c55', 'Rangpur', '#368dff'),
+  new Category('c56', 'Thakurgaon', '#41d95d'),
+
+  //Rajshahi Division
+
+  new Category('c57', 'Rajshahi', '#9eecff'),
+  new Category('c58', 'Bogra', '#b9ffb0'),
+  new Category('c59', 'Joypurhat', '#ffc7ff'),
+  new Category('c60', 'Naogaon', '#47fced'),
+  new Category('c61', 'Natore', '#f5428d'),
+  new Category('c62', 'Chapainawabganj', '#f54242'),
+  new Category('c63', 'Pabna', '#f5a442'),
+  new Category('c64', 'Sirajganj', '#f5d142'),
+  
 ];
 
 export const MEALS = [
