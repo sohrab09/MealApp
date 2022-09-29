@@ -90,34 +90,40 @@ export const CATEGORIES = [
   new Category('c62', 'Chapainawabganj', '#f54242'),
   new Category('c63', 'Pabna', '#f5a442'),
   new Category('c64', 'Sirajganj', '#f5d142'),
-  
+
 ];
 
 export const MEALS = [
   new Meal(
     'm1',
-    ['c1', 'c2'],
-    'Spaghetti with Tomato Sauce',
+    ['c1'],
+    'বাকরখানি',
     'affordable',
     'simple',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+    'https://www.chainbaker.com/wp-content/uploads/2021/05/IMG_1918.jpg',
     20,
     [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      '1 teaspoon baking powder',
+      '2 cup milk',
+      '1 tablespoon chiraunji',
+      '10 gm peeled, sliced almonds',
+      'salt as required',
+      '1 1 / 2 teaspoon kewra',
+      '2 1 / 2 teaspoon sugar',
+      '1 tablespoon dry yeast',
+      '4 tablespoon melted ghee',
+      '2 1 / 2 cup all purpose flour',
+      '1 tablespoon raisins',
+      'water as required'
     ],
     [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'To prepare this delicious recipe, sieve together flour, baking powder and salt in a bowl. In a separate baking bowl, add milk along with sugar and heat in the microwave until the sugar melts. Remove from heat and allow it to cool.',
+      'Place yeast in another bowl, add 60 ml of warm water and set aside to dissolve for 5 minutes. Soak raisins and chiraunji in a cup warm water and then set aside for 5-10 minutes.',
+      'Add sweetened milk, kewra and dissolved yeast to the flour and make a soft dough. Cover the dough with a wet cloth to maintain its moisture and set aside for 20 minutes.',
+      'After that, add 3 tablespoons of melted ghee to the dough. Add the soaked almonds, raisins and chiraunji and knead well. Cover and keep it in a warm place for 30 minutes to allow the dough to rise.',
+      'Preheat the oven to 464-degree Fahrenheit (240-degree Celsius). Divide the dough into equal parts and make balls. Cover and set aside for 10 minutes.',
+      'Flatten balls and roll them out. Prick the entire surface with a fork or knife. Put them on a baking tray and bake in the oven for 11-13 minutes.',
+      'Remove from oven and allow it to come to the room temperature. Brush the Bakarkhanis with remaining ghee and serve.'
     ],
     false,
     true,
@@ -127,23 +133,48 @@ export const MEALS = [
 
   new Meal(
     'm2',
-    ['c2'],
-    'Toast Hawaii',
+    ['c1'],
+    'বিরিয়ানি',
     'affordable',
     'simple',
-    'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+    'https://cookerybay.com/wp-content/uploads/2020/12/biriyani-3-970x647.jpg',
     10,
     [
-      '1 Slice White Bread',
-      '1 Slice Ham',
-      '1 Slice Pineapple',
-      '1-2 Slices of Cheese',
-      'Butter'
+      '1 cup boiled basmati rice',
+      '1 / 2 teaspoon mint leaves',
+      'salt as required',
+      '2 tablespoon refined oil',
+      '3 green cardamom',
+      '2 clove',
+      '2 onion',
+      '1 teaspoon turmeric',
+      '1 tablespoon garlic paste',
+      '1 cup hung curd',
+      '2 tablespoon coriander leaves',
+      'water as required',
+      '1 tablespoon ghee',
+      '600 gm chicken',
+      '1 tablespoon garam masala powder',
+      '1 teaspoon saffron',
+      '1 tablespoon bay leaf',
+      '1 black cardamom',
+      '1 teaspoon cumin seeds',
+      '4 green chillies',
+      '1 tablespoon ginger paste',
+      '1 teaspoon red chilli powder',
+      '1 / 2 tablespoon ginger',
+      '2 drops kewra',
+      '1 tablespoon rose water'
     ],
     [
-      'Butter one side of the white bread',
-      'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200°C'
+      "Step 1: Prepare saffron-kewra water and chop veggies', To make a delightful chicken biryani dish firstly soak saffron in water to prepare saffron water (One tsp saffron can be soaked in 1/4 cup water). Next, mix kewra drops in water and mix well to make kewra water. Set them aside for later usage. Now chop the onion and coriander leaves and keep them aside.",
+
+
+      "Step 2: Saute the onions', Meanwhile, heat refined oil in a deep bottomed pan. Once the oil is hot enough, add cumin seeds, bay leaf, green cardamom, black cardamom, cloves in it, and saute for about a minute. Then, add chopped onion to it and saute until pink. Now, add chicken into it with slit green chillies, turmeric, salt to taste, ginger garlic paste, red chilli powder and green chilli paste. Mix well all the spices and cook for 2-3 minutes. Then, add hung curd into it and give a mix. (Make sure the chicken is washed properly and patted dry before adding it to the dish)",
+
+      "Step 3: Cook biryani on low heat for 5-6 minutes, Turn the flame to medium again and add garam masala in it along with ginger julienned, coriander and mint leaves. Add kewra water, rose water and saffron water in it. Cook till the chicken is tender. Then add 1 cup cooked rice and spread evenly. Then add saffron water and pour ghee over it. You can now cook the dish without the lid or cover it with a lid to give a dum-effect due to the steam formation.",
+
+      "Step 4 Serve hot chicken biryani with your favourite chutney or raita, Cook for 15-20 minutes with a closed lid and garnish with 1 tbsp fried onions and coriander leaves. Serve hot chicken biryani with raita of your choice. Enjoy!"
     ],
     false,
     false,
@@ -153,26 +184,24 @@ export const MEALS = [
 
   new Meal(
     'm3',
-    ['c3'],
-    'Classic Hamburger',
+    ['c2'],
+    'বালিশ মিস্টি',
     'pricey',
     'simple',
-    'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+    'https://i.ytimg.com/vi/yz7p-_k40y4/maxresdefault.jpg',
     45,
     [
-      '300g Cattle Hack',
-      '1 Tomato',
-      '1 Cucumber',
-      '1 Onion',
-      'Ketchup',
-      '2 Burger Buns'
+      'Milk',
+      'Curd',
+      'Sugar',
+      'Flour',
     ],
     [
-      'Form 2 patties',
-      'Fry the patties for c. 4 minutes on each side',
-      'Quickly fry the buns for c. 1 minute on each side',
-      'Bruch buns with ketchup',
-      'Serve burger with tomato, cucumber and onion'
+      'প্রথমে দুধের ছানার সঙ্গে সামান্য ময়দা মিশিয়ে মণ্ড তৈরি করা হয়',
+      'মণ্ড দিয়ে বানানো হয় বিভিন্ন সাইজের বালিশ, পরে তা ভাজা হয় চিনির গরম রসে, এর পর ঠাণ্ডা করেও চিনির রসে ডুবিয়ে রাখা হয় অনেকক্ষণ',
+      'এক সময় তা রসে টইটম্বুর হয়ে যায়',
+      'বিক্রির সময় বালিশের ওপর দেয়া হয় ক্ষীরের প্রলেপ বা দুধের মালাই',
+      'এ ছাড়াও বালিশ বানানোর প্রক্রিয়ায় কিছুটা গোপনীয়তা আছে যা ব্যবসার স্বার্থে প্রকাশ করতে চান না কারিগররা।'
     ],
     false,
     false,
@@ -182,235 +211,113 @@ export const MEALS = [
 
   new Meal(
     'm4',
-    ['c4'],
-    'Wiener Schnitzel',
-    'luxurious',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
-    60,
-    [
-      '8 Veal Cutlets',
-      '4 Eggs',
-      '200g Bread Crumbs',
-      '100g Flour',
-      '300ml Butter',
-      '100g Vegetable Oil',
-      'Salt',
-      'Lemon Slices'
-    ],
-    [
-      'Tenderize the veal to about 2–4mm, and salt on both sides.',
-      'On a flat plate, stir the eggs briefly with a fork.',
-      'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
-      'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
-      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
-      'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
-    ],
-    false,
-    false,
-    false,
-    false
-  ),
-
-  new Meal(
-    'm5',
-    ['c2', 'c5', 'c10'],
-    'Salad with Smoked Salmon',
-    'luxurious',
+    ['c3'],
+    'চমচম',
+    'pricey',
     'simple',
-    'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
-    15,
+    'https://www.bongodorshon.com/uploads/story_image/tangail_chomchom_2.jpg',
+    45,
     [
-      'Arugula',
-      "Lamb's Lettuce",
-      'Parsley',
-      'Fennel',
-      '200g Smoked Salmon',
-      'Mustard',
-      'Balsamic Vinegar',
-      'Olive Oil',
-      'Salt and Pepper'
+      'Flour',
+      'Semolina',
+      'Sugar',
+      'Butter',
+      'Jufran',
+      'Lemon Juice',
+      'Coconut',
     ],
     [
-      'Wash and cut salad and herbs',
-      'Dice the salmon',
-      'Process mustard, vinegar and olive oil into a dessing',
-      'Prepare the salad',
-      'Add salmon cubes and dressing'
+      'চুলায় গরুর খাঁটি দুধ জ্বাল দিয়ে প্রথমে প্রস্তুত করা হয় ছানা।',
+      'পাঁচ কেজির মতো ছানার সঙ্গে মেশানো হয় ২৫০ গ্রাম ময়দা।',
+      'এরপর ভালো করে মেখে মিষ্টির আকার দিয়ে চিনির শিরায় জ্বাল দিতে হয় অন্তত আধাঘণ্টা। ',
+      'ক্রমশ পোড়া ইটের মতো রং ধারণ করে লম্বা মিষ্টিগুলো।',
+      'এভাবেই প্রস্তুত হয় পোড়াবাড়ির চমচম।'
     ],
-    true,
     false,
-    true,
+    false,
+    false,
     true
   ),
 
   new Meal(
     'm6',
-    ['c6', 'c10'],
-    'Delicious Orange Mousse',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
-    240,
+    ['c4'],
+    'রসমালাই',
+    'pricey',
+    'simple',
+    'https://www.vegrecipesofindia.com/wp-content/uploads/2015/01/rasmalai-recipe-bengali.jpg',
+    45,
     [
-      '4 Sheets of Gelatine',
-      '150ml Orange Juice',
-      '80g Sugar',
-      '300g Yoghurt',
-      '200g Cream',
-      'Orange Peel'
+      'Milk',
+      'Saffron',
+      'Pistachios',
+      'Water',
+      'Boiling water',
+      'Sugar',
+      'Almonds',
+      'Green cardamom',
+      'Lime juice',
     ],
     [
-      'Dissolve gelatine in pot',
-      'Add orange juice and sugar',
-      'Take pot off the stove',
-      'Add 2 tablespoons of yoghurt',
-      'Stir gelatin under remaining yoghurt',
-      'Cool everything down in the refrigerator',
-      'Whip the cream and lift it under die orange mass',
-      'Cool down again for at least 4 hours',
-      'Serve with orange peel'
+      "Step 1: Prepare the chenna, To prepare this easy sweet recipe from a scratch, you need to begin with making the chenna at home. Take a deep bottomed saucepan and boil 1 1/2 litres of milk at a high flame. Once the milk starts boiling, turn off the flame. Mix water with lemon juice and add into the hot milk. Once the milk starts crumbling, drain out the excess water using a muslin cloth and tightly tie the crumbled milk extracts in the cloth. Put it aside for 15-20 minutes.",
+
+      "Step 2: Prepare the sugar syrup, Rub the chhena till it's soft like white butter and you can make a dough out of it. Once done, make some balls with the dough and press them a little. Repeat the process till the dough is finished. Cover them with a wet cloth and then prepare the sugar syrup. For the same, put a kadhai over medium flame and add 2 cups of sugar in it along with 1 1/2 litre hot water. Just boil the water and your sugar syrup is ready, add your rasmalai in the sugar syrup and boil for 5 minutes. The rasmalais will turn double and this is the indication to turn off your flame.",
+
+      "Step 3: Prepare the saffron milk for Rasmalai, Take a deep bottomed pan and boil the remaining milk in it. Once the milk starts boiling, add saffron in it along with chopped pistachios and almonds. Allow this milk blend to attain a slightly thick consistency for about 5-7 minutes. Now, add 1 cup sugar in it and mix well. Once the milk blend is reduced to half, turn off the flame and transfer it to a bowl.",
+
+      "Step 4: Dip the sweet balls and indulge in the goodness, Now, add the sugar syrup in a bowl filled with ice cubes. Add the rasmalai in this hot-cold sugar syrup one by one. Keep them in it for 2 minutes and then squeeze the extra water and add the rasmalai in saffron milk. Let the rasmalai soak for 3-4 hours to absorb the creamy texture of the milk. It tastes best when served chilled!",
     ],
-    true,
     false,
-    true,
-    false
+    false,
+    false,
+    true
   ),
 
   new Meal(
     'm7',
-    ['c7'],
-    'Pancakes',
-    'affordable',
+    ['c5'],
+    'ভাগ্যকুলের মিস্টি',
+    'pricey',
     'simple',
-    'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
-    20,
+    'https://vromonguide.com/wp-content/uploads/Sweets-Of-Bhagyakul-Bazar-Munshiganj.jpg',
+    45,
     [
-      '1 1/2 Cups all-purpose Flour',
-      '3 1/2 Teaspoons Baking Powder',
-      '1 Teaspoon Salt',
-      '1 Tablespoon White Sugar',
-      '1 1/4 cups Milk',
-      '1 Egg',
-      '3 Tablespoons Butter, melted'
+      "প্রয়োজনীয় উপকরণসমূহ গুগলে খুঁজে পাওয়া যায়নি। 😥",
     ],
     [
-      'In a large bowl, sift together the flour, baking powder, salt and sugar.',
-      'Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.',
-      'Heat a lightly oiled griddle or frying pan over medium high heat.',
-      'Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.'
+      "প্রস্তুত প্রণালী গুগলে খুঁজে পাওয়া যায়নি। 😥"
     ],
-    true,
     false,
-    true,
-    false
+    false,
+    false,
+    true
   ),
 
   new Meal(
     'm8',
-    ['c8'],
-    'Creamy Indian Chicken Curry',
+    ['c6'],
+    'হাজারী গুড়',
     'pricey',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
-    35,
-    [
-      '4 Chicken Breasts',
-      '1 Onion',
-      '2 Cloves of Garlic',
-      '1 Piece of Ginger',
-      '4 Tablespoons Almonds',
-      '1 Teaspoon Cayenne Pepper',
-      '500ml Coconut Milk'
-    ],
-    [
-      'Slice and fry the chicken breast',
-      'Process onion, garlic and ginger into paste and sauté everything',
-      'Add spices and stir fry',
-      'Add chicken breast + 250ml of water and cook everything for 10 minutes',
-      'Add coconut milk',
-      'Serve with rice'
-    ],
-    true,
-    false,
-    false,
-    true
-  ),
-
-  new Meal(
-    'm9',
-    ['c9'],
-    'Chocolate Souffle',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+    'simple',
+    'https://www.gazipurkotha.com/media/imgAll/2018November/31-2001280745.jpg',
     45,
     [
-      '1 Teaspoon melted Butter',
-      '2 Tablespoons white Sugar',
-      '2 Ounces 70% dark Chocolate, broken into pieces',
-      '1 Tablespoon Butter',
-      '1 Tablespoon all-purpose Flour',
-      '4 1/3 tablespoons cold Milk',
-      '1 Pinch Salt',
-      '1 Pinch Cayenne Pepper',
-      '1 Large Egg Yolk',
-      '2 Large Egg Whites',
-      '1 Pinch Cream of Tartar',
-      '1 Tablespoon white Sugar'
+      "গ্রাম বাংলার গাছি ভাইয়েরা শীতকালে মাটির তৈরি হাঁড়ি আগের দিন বিকালে বা সন্ধ্যাবেলা বেঁধে রেখে আসেন খেজুর গাছে এবং সারারাত দীর্ঘ অপেক্ষার পর হাড়ি ভর্তি রসগুলো ভোরবেলা পাখির কলকাকলীতে, ঠান্ডা আবহাওয়ায় সংগ্রহ করে নিয়ে আসেন তাদের নিজ বাড়িতে, পরিষ্কার ছাঁকনি দিয়ে তা ছেঁকে নেওয়া হয়।",
     ],
     [
-      'Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.',
-      'Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.',
-      'Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.',
-      'Place chocolate pieces in a metal mixing bowl.',
-      'Place bowl over a pan of about 3 cups hot water over low heat.',
-      'Melt 1 tablespoon butter in a skillet over medium heat. Sprinkle in flour. Whisk until flour is incorporated into butter and mixture thickens.',
-      'Whisk in cold milk until mixture becomes smooth and thickens. Transfer mixture to bowl with melted chocolate.',
-      'Add salt and cayenne pepper. Mix together thoroughly. Add egg yolk and mix to combine.',
-      'Leave bowl above the hot (not simmering) water to keep chocolate warm while you whip the egg whites.',
-      'Place 2 egg whites in a mixing bowl; add cream of tartar. Whisk until mixture begins to thicken and a drizzle from the whisk stays on the surface about 1 second before disappearing into the mix.',
-      'Add 1/3 of sugar and whisk in. Whisk in a bit more sugar about 15 seconds.',
-      'whisk in the rest of the sugar. Continue whisking until mixture is about as thick as shaving cream and holds soft peaks, 3 to 5 minutes.',
-      'Transfer a little less than half of egg whites to chocolate.',
-      'Mix until egg whites are thoroughly incorporated into the chocolate.',
-      'Add the rest of the egg whites; gently fold into the chocolate with a spatula, lifting from the bottom and folding over.',
-      'Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.',
-      'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.'
+      "রস জ্বাল করার জন্য যে চুলা ব্যবহার করা হয় তাকে আঞ্চলিক ভাষায় বাইন বলে। সেই চুলোর ৪ টি থেকে ৮ টি মুখ থাকে, মানে একসাথে ৪ থেকে ৮ টি হাড়িতে রস জ্বাল করা যায়। জ্বাল করার সময় মাঝে মাঝে ওই গরম রসের উপর আরেকটি পাত্র থেকে কাঁচা রস মিশিয়ে জ্বাল করা হয় এটা একটি বিশেষ প্রক্রিয়া এটাই মূলত অরিজিনাল ",
+
+      "বিশেষ প্রক্রিয়ায় দীর্ঘ সময় জ্বাল দেওয়া হয় উচ্চ তাপমাত্রায়। উল্লেখযোগ্য যে ১৫-২০ কেজি রস জ্বাল দিয়ে ঘনত্ব বাড়ানো হয় এবং রসের রং পরিবর্তন হয়। বিশেষত্ব হচ্ছে এতগুলো রস জ্বাল দিয়ে মাত্র ৫-৭ কেজি গুড় বানানো হয়।",
+
+      "রস জ্বাল দেয়া হয়ে গেলে তাকে একটি মাটির পাত্রে রেখে কাঠের হাতল দিয়ে অনবরত নাড়তে থাকে। নাড়তে নাড়তে একসময় ঐ রস ঘন হয়ে আসে ও রঙের পরিবর্তন হয়ে সাদা কালার ধারণ করে  এবং গুড় তৈরীর জন্য প্রস্তুত হয় । তারপর সেই ঘন রস কে ছোট ছোট পাত্রে রেখে বাজার জাত করার জন্য প্রস্তুত করা হয়। সবশেষে হাজারী লিখা সিলমোহর লাগিয়ে বাজারজাত করা হয়।",
+
+      "হাজাড়ি গুড়ের রঙ সাদা, হাতে নিয়ে সামান্য চাপেই ভেঙে যায়। সেই সঙ্গে এর পাগল করা সুগন্ধ তো রয়েছেই। যখন শীতের সকাল শুরু হয়,তখন গ্রাম বাংলার ঘরে ঘরে, বিশেষ করে যে সব বাড়িতে হাজাড়ি গুড় প্রস্তুত করা হয় সেখান থেকে ভেসে আসে হাজারী গুড়ের সুগন্ধ। চারিদিকে যেন শুরু হয় হাজাড়ি উৎসব, চিরচেনা মনে হয়  যার স্বাদ এবং গন্ধের সাথে বাংলার প্রতিটি মানুষ সুপরিচিত। অনেকেই দেখতে ভিড় করে গুড় প্রস্তুতের সময়।",
+
+      ""
     ],
-    true,
     false,
-    true,
-    false
-  ),
-  new Meal(
-    'm10',
-    ['c2', 'c5', 'c10'],
-    'Asparagus Salad with Cherry Tomatoes',
-    'luxurious',
-    'simple',
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    30,
-    [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    true,
-    true,
-    true,
+    false,
+    false,
     true
-  )
+  ),
 ];

@@ -34,12 +34,12 @@ function MealDetailScreen({ route, navigation }) {
         <ScrollView style={styles.rootContainer}>
             <Image style={styles.image} source={{ uri: selectedMeal.imageUrl }} />
             <Text style={styles.title}>{selectedMeal.title}</Text>
-            <MealDetails
+            {/* <MealDetails
                 duration={selectedMeal.duration}
                 complexity={selectedMeal.complexity}
                 affordability={selectedMeal.affordability}
                 textStyle={styles.detailText}
-            />
+            /> */}
             <View style={styles.listOuterContainer}>
                 <View style={styles.listContainer}>
                     <Subtitle>Ingredients</Subtitle>

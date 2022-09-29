@@ -4,9 +4,9 @@ import React from 'react'
 export default function MealDetails({ affordability, complexity, duration, style, textStyle }) {
     return (
         <View style={[styles.details, style]}>
-            <Text style={[styles.detailsItem, textStyle]}>{duration} m</Text>
+            {/* <Text style={[styles.detailsItem, textStyle]}>{duration} m</Text>
             <Text style={[styles.detailsItem, textStyle]}>{affordability.toUpperCase()}</Text>
-            <Text style={[styles.detailsItem, textStyle]}>{complexity.toUpperCase()}</Text>
+            <Text style={[styles.detailsItem, textStyle]}>{complexity.toUpperCase()}</Text> */}
         </View>
     )
 }
